@@ -1,0 +1,117 @@
+/* 
+    Document   : index
+    Created on : 15/07/2013, 10:21:22
+    Author     : Pimenta
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#cabecalhoMinisterio{
+    background: url('images/bg_cabecalhoMinisterio.png') no-repeat center top;
+}
+#cabecalhoMinisterio .containerVisPublicaPage{
+    background: url('images/bg_cabecalhoMinisterio.png') no-repeat -500px top;
+    height: 24px;
+}
+#cabecalhoMinisterio div a{
+    float: right;
+    display: block;
+    height: 24px;
+}
+
+#linkAcessoInformacao{
+    background: url('images/linkAcessoInformacao.png') no-repeat;
+    width: 170px;
+    margin-right: 30px;
+}
+
+#linkBrasil{
+    background: url('images/linkBrasil.png') no-repeat;
+    width: 114px;
+    margin-right: 290px;
+}
+
+/*--*/
+
+.boxLogin{
+
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px #CCCCCC;
+    display: block;
+    margin: 100px auto 0;
+    padding: 10px;
+    width: 350px;
+
+}
+
+.boxLog{
+    margin-left: 10px;
+    height: 0px;
+    line-height: 60px;
+}
+
+.boxLog span{
+    display: inline-block;
+    text-align: right;
+    width: 72px;
+    font-family: Georgia;
+}
+
+.boxLog input{
+    border: 1px solid #999999;
+    color: #333333;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    padding: 4px 5px 2px;
+    width: 200px;
+}
+
+.boxSenha{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.boxSenha span{
+    display: inline-block;
+    text-align: right;
+    width: 72px;
+    font-family: Georgia;
+
+
+}
+
+.boxSenha input{
+
+    border: 1px solid #999999;
+    color: #333333;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    padding: 4px 5px 2px;
+    width: 200px;
+
+}
+
+.boxButton{
+    text-align: center;
+
+}
+.boxButton input{
+    height: 35px;
+    margin-right: 10px;
+    padding: 5px 18px;
+}
+
+.boxButton input+input{
+    margin-left: 10px;
+    margin-right: 0;
+}
+

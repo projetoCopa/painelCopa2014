@@ -1,0 +1,390 @@
+/* 
+    Document   : painelCopa
+    Created on : 23/05/2013, 11:54:04
+    Author     : Barbara
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/**Header**/
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#cabecalhoMinisterio{
+    background: url('/copa/images/bg_cabecalhoMinisterio.png') no-repeat center top;
+}
+#cabecalhoMinisterio .containerVisPublicaPage{
+    background: url('/copa/images/bg_cabecalhoMinisterio.png') no-repeat -500px top;
+    height: 24px;
+}
+#cabecalhoMinisterio div a{
+    float: right;
+    display: block;
+    height: 24px;
+}
+
+#linkAcessoInformacao{
+    background: url('/copa/images/linkAcessoInformacao.png') no-repeat;
+    width: 170px;
+    margin-right: 30px;
+}
+
+#linkBrasil{
+    background: url('/copa/images/linkBrasil.png') no-repeat;
+    width: 114px;
+    margin-right: 290px;
+}
+
+/*--*/
+
+.conteinerPainelCopa {
+    background-color:#FFFFFF;
+    border:1px solid #A9ADBD;
+    box-shadow:#CCCCCC 5px 5px 12px;
+    height:1210px;
+    padding:10px;
+    position:relative;
+    width:900px;
+    margin: 11px auto 0;
+
+}
+
+.conteinerPainelCopa p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.headerPainel{
+    border-bottom-color: #21729E;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+}
+
+.inputUrlLabel {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.headerPainel a{
+    color: #21729E;
+    font-family: HelveticaExtLt;
+    font-size: 20px;
+    float: right;
+    padding: 5px;
+}
+
+.titlePainel{
+    color: #21729E;
+    font-family: HelveticaExtLt;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.pieTitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3F3F3F;
+    font-family: HelveticaExtLt;
+    height: 45px;
+    text-align: left;
+    margin-left: 85px;
+}
+
+.pie{
+    width: 550px;
+    height: 350px;
+    float: right;
+}
+
+.pieChart{
+    width: 550px;
+    height: 350px;
+    float: right;
+    margin-top: -30px;
+}
+
+.sedeTema{
+    border-bottom-color: #d0d0d0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-color: #d0d0d0;
+    border-top-style: solid;
+    border-top-width: 2px;
+    height: 30px; 
+    float: left;
+    position: relative;
+    width: 920px;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+.titleSede{
+    font-family: HelveticaExtLt;
+    font-size: 24px;
+    color: #5b5b5b;
+}
+
+.sedeSel{
+    font-family: HelveticaExtLt;
+    font-size: 24px;
+    color: #df884d;
+}
+
+.sedeSelecionada{
+    float: left;
+    margin-left: 30px;
+}
+
+.temaSelecionado{
+    margin-left: 390px;
+}
+
+.titleTema{   
+    font-family: HelveticaExtLt;
+    font-size: 24px;
+    color: #5b5b5b;
+    
+}
+
+.temaSel{
+    font-family: HelveticaExtLt;
+    font-size: 24px;
+    color: #df884d;
+}
+
+.EmpTable{
+    float: left;
+    margin-top: 10px;
+    height: 250px;
+    overflow: auto;
+    position: relative;
+    width: 850px;
+    margin-left: 23px;
+    border:1px solid #CCC;
+    border-radius: 5px;
+}
+
+.EmpTable p{
+    font-family: HelveticaExtLt;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #3F3F3F;
+}
+
+
+.columnChart{
+    border: 1px solid #A9ADBD;
+    overflow: auto;
+    position: relative;
+    float: left;
+    width: 850px;
+    height: 310px;
+    margin-top: 15px;
+    margin-left: 23px;
+    border-radius: 5px;
+}
+
+.columnChart p{
+    font-family: HelveticaExtLt;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #3F3F3F;
+}
+
+.msg{
+    margin-top: 10px;
+    margin-left: 60px;
+    float: left;
+    position: relative;
+}
+.msg p{
+    font-family: HelveticaExtLt;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3F3F3F;
+
+}
+
+
+.mapWrapper{
+    width: 350px;
+    height: 340px;
+    float: left;
+    background: #FFF;
+}
+
+.mapWrapper svg{
+    margin-left: 15px;
+    margin-top: -45px;
+}
+
+.mapTitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3F3F3F;
+    font-family: HelveticaExtLt;
+    height: 45px;
+    text-align: left;
+}
+
+.legend{
+    margin-top: -100px;
+    margin-left: 10px;
+}
+
+.greenLegend{
+    padding: 4px;
+    height: 20px;
+    width: 20px;
+    background: #A3CFA1;
+    border-radius: 2px;
+    margin-left: -8px;
+}
+
+.greenLegend p{
+    font-family: HelveticaExtLt;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #3F3F3F;
+    margin-top: -15px;
+    width: 85px;
+}
+
+.modalInfo{
+    height: 460px;
+    width: 620px;
+    min-height: 0;
+    width: auto;
+}
+
+.creativeCommons {
+    float: left;
+    font-size: 11px;
+    margin-top: 17px;
+    text-align: right;
+    width: 98%;
+    margin-left: -7px;
+}
+
+#modalInfo p {
+    text-align: justify;
+    font-family: HelveticaExtLt;
+     font-size: 16px;
+}
+
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix{
+    border-color: #21729E;
+}
+
+.ui-dialog .ui-dialog-title{
+    color: #21729E;
+    font-family: HelveticaExtLt;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable{
+    font-family: HelveticaExtLt;
+    font-size: 14px;
+}
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix{
+    background: none repeat scroll 0 0 transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 3px solid;
+    color: #21729E;
+    margin-left: -3px;
+    margin-right: -4px;
+    margin-top: -4px;
+    padding-bottom: 0;
+    padding-top: 3px;
+}
+
+.ui-dialog .ui-dialog-title {
+    font-size: 18.67px;
+    font-weight: normal;
+    padding: 0 16px 0.1em -4px;
+}
+.ui-widget-header .ui-icon{
+    background-image: url("images/ui-icons_222222_256x240.png")!important; 
+}
+.ui-widget{
+    font-family: HelveticaExtLt;
+}
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only{
+    margin: 0;
+}
+
+
+.ui-dialog p{
+    font-size: 16px;
+}
+
+/*MAPA*/
+.str0 {
+    fill:#DDD;
+    fill-opacity:1; 
+    stroke:#333333;
+    stroke-opacity:1;
+    stroke-width:300px;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+
+}
+
+.str1 {
+    fill:#A3CFA1;
+    fill-opacity:1;
+    stroke:#333333;
+    stroke-opacity:1;
+    stroke-width:300px;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    cursor: pointer;
+}
+
+.str1:hover{
+    fill:rgb(99,173,95);
+}
+
+.str3 {
+    stroke: #333333;
+    stroke-opacity:1;
+    stroke-width:300px;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+}
+
+.fil3 {
+    fill:none;     
+}
+
+.estadoClicked {
+    fill:rgb(89,143,85);
+}
+
+/*
+.fil0 {fill:#BFD8FF}
+.fil1 {fill:#F4E2BA}
+.fil2 {fill:#FFF3E3}
+.fil4 {fill:#00FF00}
+.fil5 {fill:#FF9900}
+.fil6 {fill:#Ff0000}
+.fil7 {fill:#00FFFF}
+.fil8 {fill:#FFFF00}*/
+
