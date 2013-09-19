@@ -1,4 +1,5 @@
-Painel Copa 2014 developed in the context of project Copa 2014 through a partnership between the COPPE / UFRJ, the UNIFEI (Federal University of Itajubá) and 
+Painel Copa 2014 developed in the context of project Copa 2014 through a partnership between 
+the COPPE / UFRJ, the UNIFEI (Federal University of Itajubá) and 
 the Ministério do Planejamento, Orçamento e Gestão.
 
 This program is free software: you can redistribute it and/or modify 
