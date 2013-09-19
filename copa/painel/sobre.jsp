@@ -1,46 +1,45 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sobre o Painel da Copa</title>
-        <style type="text/css">
-            body {
-                border: 1px solid #999;
-                background: #f5f5f5;
-                margin: 8px;
-                padding: 5px;
-                text-align: justify;
-                font-family: Tahoma;
-                font-size: 12px;
-                color: #333;
-            }
-            h1 {
-                font-size: 18px;
-            }
-        </style>
+        <link href="painelCopa.css" rel="stylesheet" type="text/css" />
+        <title>Sobre o Painel Copa</title>
     </head>
     <body>
-        <h1>Informa√ß√µes do Painel da Copa 2014</h1>
+         <div class="container" id="container" style="min-height: 1285px;">     
+            <div id="cabecalhoMinisterio">
+                <div class="containerVisPublicaPage">
+                    <a href="http://www.brasil.gov.br" id="linkBrasil" target="_blank" ></a>
+                    <a href="http://www.acessoainformacao.gov.br" id="linkAcessoInformacao" target="_blank" ></a>
+                </div>
+            </div>
 
-        <p>O objetivo do painel √© apresentar de forma gr√°fica e interativa os investimentos nos empreendimentos de cada cidade-sede dos jogos da copa.</p>
+            
+                <div class="sobre">
+                <div class="headerPainel">
+                    <span class="titlePainel">InformaÁıes do Painel da Copa 2014</span>
+            </div>
+            
+                <p>O objetivo do painel È apresentar de forma gr·fica e interativa os investimentos nos empreendimentos de cada cidade-sede dos jogos da copa.</p>
 
-        <p>O painel permite analisar o percentual dos investimentos por tema de atua√ß√£o e os recursos previsto e contratado na realiza√ß√£o de cada empreendimento.</p>
+                <p>O painel permite analisar o percentual dos investimentos por tema de atuaÁ„o e os recursos previsto e contratado na realizaÁ„o de cada empreendimento.</p>
 
-        <p>O Painel Copa 2014 foi desenvolvido pela COPPE/UFRJ em parceria com a UNIFEI (Universidade Federal de Itajub√°) e o Minist√©rio do Planejamento, Or√ßamento e Gest√£o.</p>
+                <p>O Painel Copa 2014 foi desenvolvido pela COPPE/UFRJ em parceria com a UNIFEI (Universidade Federal de Itajub·) e o MinistÈrio do Planejamento, OrÁamento e Gest„o.</p>
 
-        <p>Para o desenvolvimento do painel foram utilizadas as seguintes t√©cnicas e tecnologias:</p>
+                <p>Para o desenvolvimento do painel foram utilizadas as seguintes tÈcnicas e tecnologias:</p>
 
-        <ul>
-            <li>O Mapa foi constru√≠do com a tecnologia SVG (Scalable Vector Graphics - Gr√°ficos Vetoriais Escal√°veis)</li>
+                <ul>
+                    <li>O Mapa foi construÌdo com a tecnologia SVG (Scalable Vector Graphics - Gr·ficos Vetoriais Escal·veis)</li>
 
-            <li>Para a elabora√ß√£o do Gr√°fico de Pizza e do Gr√°fico de Colunas foi utilizado a tecnologia Highcharts</li>
+                    <li>Para a elaboraÁ„o do Gr·fico de Pizza e do Gr·fico de Colunas foi utilizado a tecnologia Highcharts</li>
 
-            <li>A Tabela foi gerada com a tecnologia Google Visualization API</li>
-        </ul>
+                    <li>A Tabela foi gerada com a tecnologia Google Visualization API</li>
+                </ul>
 
-        <p>Os dados apresentados est√£o dispon√≠veis para download no site Copa 2014 - Transpar√™ncia em 1¬∫ lugar, atrav√©s do link abaixo:</p>
+                <p>Os dados apresentados est„o disponÌveis para download no site Copa 2014 - TransparÍncia em 1∫ lugar, atravÈs do link abaixo:</p>
 
-        <a href="http://www.portaldatransparencia.gov.br/copa2014/dados/download.seam" target="_blank">http://www.portaldatransparencia.gov.br/copa2014/dados/download.seam</a>
-    </body>
-</html>
+                <a href="http://www.portaldatransparencia.gov.br/copa2014/dados/download.seam" target="_blank">http://www.portaldatransparencia.gov.br/copa2014/dados/download.seam</a>
+         
+             </div>
+            
+        </body>
+    </html>
+

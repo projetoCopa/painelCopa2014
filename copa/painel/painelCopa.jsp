@@ -36,10 +36,10 @@
 
             <div class="conteinerPainelCopa ">
                 <div class="headerPainel">
-                    <span class="titlePainel">Painel Copa 2014</span> 
-                    <a id="modalInfoLink" style="cursor: pointer;">
+                    <span class="titlePainel">Copa 2014: Valores Investidos nos Empreendimentos</span> 
+                    <a href="sobre.jsp" target="_blank" >
                         <span>Sobre o Painel</span>
-                        <img src="/vispublica/images/icon_info_agenda.png">
+                        <img src="/copa/painel/images/icon_info_agenda.png">
                     </a>
                 </div>
 
@@ -259,7 +259,7 @@
 
 
                 }
-
+                
                 $(function() {
                     $('#modalInfoLink').click(function(e) {
                         e.preventDefault();
